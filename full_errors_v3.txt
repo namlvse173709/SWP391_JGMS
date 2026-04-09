@@ -1,7 +1,0 @@
-﻿F:\swp\abc\SWP391_JGMS\backend\BLL\Services\GithubIntegrationService.cs(157,51): error CS1061: 'ICommitRepository' does not contain a definition for 'GetCommitsByProjectIdAsync' and no accessible extension method 'GetCommitsByProjectIdAsync' accepting a first argument of type 'ICommitRepository' could be found (are you missing a using directive or an assembly reference?) [F:\swp\abc\SWP391_JGMS\backend\BLL\BLL.csproj]
-
-Build FAILED.
-    3 Warning(s)
-    1 Error(s)
-
-Time Elapsed 00:00:01.39
