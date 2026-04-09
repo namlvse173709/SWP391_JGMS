@@ -1,4 +1,4 @@
-﻿using BLL.DTOs.Admin;
+using BLL.DTOs.Admin;
 using BLL.DTOs.Jira;
 using BLL.Helpers;
 using BLL.Services.Interface;
@@ -18,7 +18,7 @@ namespace SWP391_JGMS.Controllers
     /// Leader-only endpoints are gated by is_leader checks inside the service layer.
     /// </summary>
     [ApiController]
-    [Authorize(Roles = "student")]
+    [Authorize(Roles = "student,admin,lecturer")]
     [Route("api/students")]
     [Produces("application/json")]
     public class StudentController : ControllerBase

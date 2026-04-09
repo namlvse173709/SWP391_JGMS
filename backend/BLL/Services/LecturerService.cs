@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
 using Task = System.Threading.Tasks.Task;
-using Microsoft.AspNetCore.Authorization;
 
 namespace BLL.Services
 {
